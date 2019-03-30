@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="practice.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="styles.css" type="text/css" />
-    <title>Homebaselogin</title>
+    <title>Homebaselogin</title> 
 </head>
+
 <body>
-   <div id="logindashboard">
-   <h1 id="title">Homebase</h1>
-  
-    <input id="password" name="password"/>
-    <form action="http:homebaseapp.com/api/login" method="POST" onsubmit=returnfalse">
+    <div id="container"></div>
+    <div id="main"></div>
+    <h2 id="title">Homebase</h2>
+    <div id="form-ing">
+    <img src= "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg"
     
-    <input id="username" name="username"/>
-    <button onclick ="handleSubmit()">Submit</button>
-    </div>
-    
+        <div id="logindashboard">
+            
+
+            <form action="https://cors-anywhere.herokuapp.com/http://careerdev-teaching-lujason2015.c9users.io/api" method="POST">
+                <label id="username">User Name</label>
+                <input type="username" name="username" />
+                <label id="password">Password</label>
+                <input type="password " name="password" /> 
+            
+                <input type="submit"/>
+            </form>
+</div>
+</div>
+
 </body>
+
 </html>
